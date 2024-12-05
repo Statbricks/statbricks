@@ -358,16 +358,16 @@ button#showModalBtn:hover {
 <script>// Get modal element
 var modal = document.getElementById("rebrandingModal");
 
-// Function to show the modal after a delay and hide it after 6 seconds
+// Function to show the modal after a delay and hide it after 60 seconds
 window.onload = function() {
     // Show the modal after 1 second (1000 ms)
     setTimeout(function() {
         modal.style.display = "block";
 
-        // Hide the modal after 6 seconds (6000 ms)
+        // Hide the modal after 60 seconds (60000 ms)
         setTimeout(function() {
             modal.style.display = "none";
-        }, 6000);
+        }, 60000);
 
     }, 1000); // You can adjust the initial delay (1 second here)
 }
@@ -380,7 +380,7 @@ showModalBtn.onclick = function() {
     // Automatically hide the modal after 6 seconds
     setTimeout(function() {
         modal.style.display = "none";
-    }, 6000);
+    }, 60000);
 }
 </script>
     <!-- Full Screen Search Start -->
